@@ -65,10 +65,44 @@ h4{
 .area-2{
     position: absolute;
     top: 2000px;
+    padding-left: 10px;
 }
 .main-area{
     flex-wrap: wrap;
 }
 .footer{
     text-align: center;
+}
+@media (max-width:760px) {
+    .last{
+        display: flex;
+    }
+}
+@media (max-width:760px) {
+    .area{
+    margin-right: 10px;
+    margin-left: 10px; 
+    }
+    
+}
+@media (max-width:760px) {
+    .area-2{
+        position: absolute;
+        top: 6000px;
+        left:0;
+        
+    }
+    
+}
+@media (max-width:760px) {
+    .main-area{
+        padding-bottom: 300px;
+    }
+    
+}
+@media (max-width:760px) {
+    .area-2 img{
+        width: 100%;
+    }
+    
 }
